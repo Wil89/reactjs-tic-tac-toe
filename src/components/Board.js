@@ -1,12 +1,7 @@
 import React, {useContext, useState} from 'react'
 import styled from 'styled-components'
 import { HistoryContext } from '../context/Context';
-import { winnerCheck } from '../utils/helper';
 import { Square } from './Square'
-
-const Status = styled.div`
-    margin-bottom: 10px;
-`;
 
 const BoardRow = styled.div`
     &:after{
@@ -17,8 +12,8 @@ const BoardRow = styled.div`
 `;
 
 export const Board = () => {
-    const {history, addMove} = useContext(HistoryContext)
-    const current = history[history.length - 1];
+    const {history, addMove, stepNumber} = useContext(HistoryContext)
+    const current = history[stepNumber];
     
     const renderSquare = (i) => 
         <Square value={current.squares[i]} onClick={() => addMove(i)} />   
