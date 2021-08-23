@@ -10,7 +10,7 @@ export const winnerCheck = (squares) => {
         [2, 4, 6]
     ];
 
-    for(let i = 0 ; i < winnerOpts.length - 1; i++){
+    for(let i = 0 ; i < winnerOpts.length; i++){
         const [a, b, c] = winnerOpts[i];
         if(squares[a] && squares[a] === squares[b] && squares[a] === squares[c]){
             return squares[a];

@@ -17,30 +17,11 @@ const BoardRow = styled.div`
 `;
 
 export const Board = () => {
-    // const [squares, setSquares] = useState(Array(9).fill(null));
-    // const [isXNext, setIsXNext] = useState(true);
-    
-    // const handleClick = (i) => {
-    //     if(winnerCheck(squares) || squares[i]){
-    //         return;
-    //     }
-    //     const newSquare = squares.slice();
-    //     newSquare[i] = isXNext ? 'X' : 'O';
-    //     setSquares(newSquare);
-    //     setIsXNext(!isXNext);
-    // }
-
     const {history, addMove} = useContext(HistoryContext)
     const current = history[history.length - 1];
     
     const renderSquare = (i) => 
-        <Square value={current.squares[i]} onClick={() => addMove(i)} />
-    
-    // const updateStatus = () => {
-    //     const winner = winnerCheck(current.squares);
-    //     const nextPlayer = isXNext ? 'X' : 'O';
-    //     return winner ? `Winner: ${winner}`: `Next Player: ${nextPlayer}`; 
-    // }    
+        <Square value={current.squares[i]} onClick={() => addMove(i)} />   
 
     return (
         <div>
