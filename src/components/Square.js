@@ -3,7 +3,7 @@ import React from 'react'
 
 const defaultSquare = ({className, value, onClick}) => {
     return (
-            <button className={className} onClick={onClick}>{value}</button>
+            <button data-testid="square" className={className} onClick={onClick}>{value}</button>
     )
 }
 

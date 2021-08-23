@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component tests Game match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-dlnjwi kcZDqU"
+    >
+      <div
+        class="sc-hKFxyN"
+      >
+        <div>
+          <div
+            class="sc-gtsrHT gDKcJo"
+          >
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT gDKcJo"
+          >
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT gDKcJo"
+          >
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+            <button
+              class="sc-bdnxRM etPaJv"
+              data-testid="square"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-jSFjdj mHMJQ"
+      >
+        <div
+          class="sc-eCApnc hhzmUy"
+          data-testid="status"
+        >
+          Next Player: X
+        </div>
+        <ol
+          class="sc-gKAaRy dCgMHa"
+        >
+          <li>
+            <button
+              data-testid="step"
+            >
+              Go to game start
+            </button>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

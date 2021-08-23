@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component tests Steps match snapshot 1`] = `
+<DocumentFragment>
+  <li>
+    <button
+      data-testid="step"
+    >
+      Go to game start
+    </button>
+  </li>
+</DocumentFragment>
+`;

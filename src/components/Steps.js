@@ -6,7 +6,7 @@ export const Steps = ({move, onClick}) => {
     
     return (
         <li>
-            <button onClick={() => onClick(move)}>{desc}</button>
+            <button data-testid="step" onClick={() => onClick(move)}>{desc}</button>
         </li>
             
     )

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component tests Board match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-gtsrHT gDKcJo"
+    >
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+    </div>
+    <div
+      class="sc-gtsrHT gDKcJo"
+    >
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+    </div>
+    <div
+      class="sc-gtsrHT gDKcJo"
+    >
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+      <button
+        class="sc-bdnxRM etPaJv"
+        data-testid="square"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
